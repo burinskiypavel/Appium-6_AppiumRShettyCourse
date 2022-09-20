@@ -38,10 +38,10 @@ public class AndroidBaseTest extends AppiumUtils {
         service = startAppiumServer(ipAddress, Integer.parseInt(port));
 
         UiAutomator2Options options = new UiAutomator2Options();
-        //options.setDeviceName("Android Device");
+        options.setDeviceName("Android Device");
         //options.setCapability("deviceName", "Galaxy A12");
         //options.setCapability("deviceName", "Redmi Note 4");
-        options.setCapability("deviceName", "Pixel 2");
+        //options.setCapability("deviceName", "Pixel 2");
 
         //options.setApp("C:\\Users\\user\\IdeaProjects\\appium-5\\src\\test\\java\\resources\\ApiDemos-debug.apk");
         //options.setApp("src\\test\\java\\resources\\ApiDemos-debug.apk");
